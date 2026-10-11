@@ -9,7 +9,7 @@ def cosine_similarity(v1, v2):
 	Returns:
 		The cosine_similarity of the two vectors.
 	"""
-	
+
 	dot_product = sum(v1*v2)
 	v1_l2_norm = np.sqrt(sum(v1**2))  
 	v2_l2_norm = np.sqrt(sum(v2**2))  
@@ -17,6 +17,7 @@ def cosine_similarity(v1, v2):
 	cos_similarity = dot_product / (v1_l2_norm * v2_l2_norm)
 	return cos_similarity
 
-def cosine_similarity(v1, v2):
+def cosine_similarity_one_line(v1, v2):
+	# One line version
 	return sum(v1*v2) / (np.sqrt(sum(v1**2)) * np.sqrt(sum(v2**2)))
 	
