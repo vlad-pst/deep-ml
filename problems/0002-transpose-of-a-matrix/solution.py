@@ -8,6 +8,7 @@ def transpose_matrix(a: list[list[int|float]]) -> list[list[int|float]]:
     Returns:
         The transposed matrix of shape (n, m)
     """
+    # Complexity (highest, not efficient): m*n
     b = []
 
     for j in range(len(a[0])):
