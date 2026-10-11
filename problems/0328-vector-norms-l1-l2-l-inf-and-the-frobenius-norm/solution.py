@@ -14,24 +14,19 @@ def compute_norm(arr: np.ndarray, norm_type: str) -> float:
     Returns:
         The computed norm as a float
     """
-    
-    try: 
-        if arr.ndim == 2: 
-            arr = arr.reshape(-1) 
-            fro = True
+    fro = False
+    if arr.ndim == 2: 
+        arr = arr.reshape(-1) 
+        fro = True
 
-        if "l1" in norm_type:
-            norm = float(sum(abs(arr)))
-        elif "l2" in norm_type:
-            norm = np.sqrt(sum(arr**2))
-        elif "linf" in norm_type:
-            norm = float(max(abs(arr)))
-        elif "fro" and fro:
-            norm = np.sqrt(sum(arr**2))
-        else:
-            raise ValueError
-        return norm
-    except: 
+    if "l1" in norm_type:
+        norm = float(sum(abs(arr)))
+    elif "l2" in norm_type:
+        norm = np.sqrt(sum(arr**2))
+    elif "linf" in norm_type:
+        norm = float(max(abs(arr)))
+    elif "fro" and fro:
+        norm = np.sqrt(sum(arr**2))
+    else:
         raise ValueError
-
-    pass
+    return norm
