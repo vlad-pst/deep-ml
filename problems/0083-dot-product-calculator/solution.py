@@ -10,7 +10,7 @@ def calculate_dot_product(vec1, vec2):
 		The dot product of the two vectors.
 	"""
 	if len(vec1) != len(vec2):
-		return "Dot product calculation not possible."
+		return "Dot product calculation not possible, the 2 vectors have different dimensions."
 	else: 
 		for i in range(len(vec1)):
 			vec2[i] *= vec1[i]
