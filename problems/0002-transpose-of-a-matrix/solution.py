@@ -17,4 +17,4 @@ def transpose_matrix(a: list[list[int|float]]) -> list[list[int|float]]:
             b[j].append(a[i][j])
 
     return b
-    pass
+    
