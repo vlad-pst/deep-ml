@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T23:43:26.367Z",
+  "generated_at": "2026-10-17T23:00:34.680Z",
   "items": {
     "problem:121": {
       "kind": "problem",
@@ -159,6 +159,17 @@
       "path": "math/0008-vector-norms-and-linear-independence",
       "first_solved_at": "2026-10-14T23:43:25.709Z",
       "last_pushed_at": "2026-10-14T23:43:25.709Z"
+    },
+    "math:5": {
+      "kind": "math",
+      "id": "5",
+      "title": "Gradient Descent Updates",
+      "difficulty": "easy",
+      "category": "Calculus for Machine Learning",
+      "url": "https://www.deep-ml.com/math-problems/5",
+      "path": "math/0005-gradient-descent-updates",
+      "first_solved_at": "2026-10-17T23:00:33.473Z",
+      "last_pushed_at": "2026-10-17T23:00:33.473Z"
     }
   }
 }
