@@ -12,9 +12,6 @@ def quotient_rule_derivative(g_coeffs: list, h_coeffs: list, x: float) -> float:
     Returns:
         The derivative value f'(x)
     """
-    # g_coeffs[]
-    # h_coeffs[]
-    # x
     g = 0
     dg = 0
     n = len(g_coeffs)
