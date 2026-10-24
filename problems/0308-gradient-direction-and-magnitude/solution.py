@@ -21,7 +21,7 @@ def gradient_direction_magnitude(gradient: list) -> dict:
 	magnitude = np.sqrt(sum(array_gradient ** 2))
 	my_dict["magnitude"] = magnitude
 
-	# Calculating the unit vector pointing in the direction of steepest ascent, and the descent gradient, which represents the negation of the direction of steepest ascent. 
+	# Calculating the unit vector pointing in the direction of steepest ascent, and the descent direction, which represents the negation of direction of steepest ascent. Handling the edge case where the gradient is a zero vector, the magnitude is 0.0, making division of the array elements undefined. 
 	if magnitude == 0:
 		magnitude = 1
 
