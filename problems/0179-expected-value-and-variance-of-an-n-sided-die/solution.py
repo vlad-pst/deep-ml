@@ -8,8 +8,8 @@ def dice_statistics(n: int) -> tuple[float, float]:
 	Returns:
 		tuple: (expected_value, variance)
 	"""
-	expected = (n + 1) / 2
+	expected_value = (n + 1) / 2
 	variance = (n ** 2 - 1) / 12
-	die_tuple = (expected, variance)
-	
+	die_tuple = (expected_value, variance)
+
 	return die_tuple
