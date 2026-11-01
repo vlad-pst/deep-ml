@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T17:29:20.917Z",
+  "generated_at": "2026-11-01T17:39:28.973Z",
   "items": {
     "problem:121": {
       "kind": "problem",
@@ -361,7 +361,7 @@
       "url": "https://www.deep-ml.com/math-problems/34",
       "path": "math/0034-least-squares-and-the-normal-equations",
       "first_solved_at": "2026-11-01T17:29:20.352Z",
-      "last_pushed_at": "2026-11-01T17:29:20.352Z"
+      "last_pushed_at": "2026-11-01T17:39:28.200Z"
     }
   }
 }
