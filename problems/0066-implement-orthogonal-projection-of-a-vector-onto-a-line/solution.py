@@ -12,6 +12,6 @@ def orthogonal_projection(v, L):
 	for i in range(len(L)):
 		dot_v_L += (v[i] * L[i])
 		dot_L_L += (L[i] ** 2)
-
 	proj_v_L = [x * (dot_v_L / dot_L_L ) for x in L]
+	
 	return proj_v_L
