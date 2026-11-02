@@ -18,5 +18,5 @@ def inverse_2x2(matrix: list[list[float]]) -> list[list[float]] | None:
             a = (-1) ** (i) * matrix[1][1-i] / determinant_two_dim
             b = (-1) ** (i+1) * matrix[0][1-i] / determinant_two_dim
             inverse_matrix.extend([[a, b]])
-        
+            
         return inverse_matrix
